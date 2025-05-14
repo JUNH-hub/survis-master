@@ -1,0 +1,22 @@
+const userDefinedAuthorizedTags = {
+  "type:system": { "description": "paper describing a system" },
+  "modality:facial": { "description": "Facial expression modality" },
+  "modality:speech": { "description": "Speech/audio signal modality" },
+  "modality:text": { "description": "Text-based input (e.g., reviews)" },
+  "modality:physiological": { "description": "EEG, ECG, GSR, etc." },
+  "modality:multimodal": { "description": "Multiple input sources" },
+  "technique:deep learning": { "description": "Neural networks, CNN, RNN" },
+  "technique:transfer learning": { "description": "Cross-subject/domain adaptation" },
+  "technique:attention": { "description": "Attention mechanism applied" },
+  "technique:fusion": { "description": "Feature/decision/data-level fusion" },
+  "technique:survey": { "description": "Review or literature survey" },
+  "application:emotion recognition": { "description": "Detecting human emotions" },
+  "application:engagement detection": { "description": "Learning/interaction attention modeling" },
+  "application:visualization": { "description": "Affective data or model visualization" },
+  "application:education": { "description": "Used in educational setting" },
+  "dataset:DEAP": { "description": "Popular physiological dataset" },
+  "dataset:IEMOCAP": { "description": "Multimodal emotion dataset" },
+  "dataset:SEED": { "description": "Emotion EEG dataset" },
+  "dataset:MAHNOB-HCI": { "description": "Emotion multimodal dataset" },
+  "dataset:custom": { "description": "Custom or author-collected dataset" }
+};
